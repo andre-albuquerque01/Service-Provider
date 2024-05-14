@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { inter } from "./font";
+import { Header } from "@/components/header/Header";
 
 
 export const metadata: Metadata = {
@@ -14,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">{children}</body>
+      <body className={inter.className}>
+      <Header/>
+        {children}
+        </body>
     </html>
   );
 }
