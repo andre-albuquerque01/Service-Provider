@@ -13,11 +13,9 @@ export const Header = () => {
 
   return (
     <header
-      className={`z-50 w-full fixed  transition-all ease-in-out duration-1000 bg-black  ${
-        navbar ? ' fixed mb-[80px] bg-black' : ''
-      }`}
+      className={`z-50 w-full fixed  transition-all ease-in-out duration-1000 bg-black   mb-[80px]`}
     >
-      <div className="mx-auto max-w-[1200px] bg-transparent flex justify-between py-4 items-center  px-4 text-gray-800 max-h-20">
+      <div className="mx-auto max-w-[1200px] bg-transparent flex justify-between py-4 items-center  px-4 text-gray-800 max-h-20 ">
         <h2 className="text-white">Logo `-`</h2>
         <nav className="flex">
           <button
