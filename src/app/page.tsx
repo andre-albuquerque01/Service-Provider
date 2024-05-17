@@ -1,7 +1,9 @@
+import { About } from '@/components/about'
+
 export default function Home() {
-	return (
-		<main className="">
-			<h2>Biscoito</h2>
-		</main>
-	);
+  return (
+    <main className="max-w-[1200px]  mx-auto">
+      <About />
+    </main>
+  )
 }
