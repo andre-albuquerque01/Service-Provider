@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { inter } from './font'
-import { Header } from '@/components/header/header'
+import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={` ${inter.className}`}>
         <Header />
         {children}
       </body>
