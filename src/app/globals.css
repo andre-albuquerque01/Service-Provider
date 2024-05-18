@@ -3,8 +3,29 @@
 @tailwind utilities;
 
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
 @layer utilities {
     .gradient-div {
       background: linear-gradient(to right, rgba(0, 255, 255, 0.1), rgba(0, 255, 255, 1), rgba(0, 255, 255, 0.1));
+    }
+
+    .gradient-div-headline {
+      background: linear-gradient(to right, rgba(0, 34, 34, 0.1), rgb(21, 145, 145), rgba(0, 34, 34, 0.1));
     }
   }
