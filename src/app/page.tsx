@@ -1,5 +1,6 @@
 import { About } from '@/components/about'
 import { Differences } from '@/components/differences'
+import { Location } from '@/components/location'
 import { Service } from '@/components/service'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <About />
       <Differences />
       <Service />
+      <Location />
     </main>
   )
 }
