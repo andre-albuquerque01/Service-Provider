@@ -5,6 +5,7 @@ export const About = () => {
     <>
       <div
         className={`min-h-[99.7vh] text-justify space-y-3 p-4 font-sans flex flex-col justify-center mx-auto max-w-[1200px]`}
+        id="#about"
       >
         <h1 className="uppercase text-cyan-500 font-bold text-2xl text-center">
           QUEM SOMOS
