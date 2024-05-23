@@ -75,14 +75,6 @@ export const Header = () => {
             >
               Quem Somos
             </Link>
-
-            <Link
-              href={`#vendaaa`}
-              className=" hover:bg-cyan-600 rounded-md transition duration-500 px-4 py-3 cursor-pointer"
-              onClick={() => setNavBar(false)}
-            >
-              Venda
-            </Link>
             <Link
               href={`#servicos`}
               className=" hover:bg-cyan-600 rounded-md transition duration-500 px-4 py-3 cursor-pointer "
