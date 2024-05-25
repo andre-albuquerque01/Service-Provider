@@ -1,4 +1,5 @@
 'use client'
+import { fontLogo } from '@/app/font'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
@@ -32,7 +33,7 @@ export const Header = () => {
       className={`z-50 w-full transition-all ease-in-out duration-1000 bg-black ${isTop ? 'block' : 'fixed'}`}
     >
       <div className="mx-auto max-w-[1200px] bg-transparent flex justify-between py-4 items-center px-4 text-gray-800 max-h-20">
-        <h2 className="text-white">Logo `-`</h2>
+        <p className={`text-4xl text-white ${fontLogo.className}`}>TechCraft</p>
         <nav className="flex">
           <button
             className="sm:hidden h-[25px] m-auto z-30 w-8 flex items-center flex-col gap-1 p-1 relative"
@@ -83,11 +84,11 @@ export const Header = () => {
               Serviços
             </Link>
             <Link
-              href={`#ondeficamos`}
+              href={`#comoficamos`}
               className=" hover:bg-cyan-600 rounded-md transition duration-500 px-4 py-3 cursor-pointer"
               onClick={() => setNavBar(false)}
             >
-              Onde nos Encontrar
+              Como nos Encontrar
             </Link>
           </div>
         </nav>
