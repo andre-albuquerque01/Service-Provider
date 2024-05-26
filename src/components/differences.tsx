@@ -1,4 +1,4 @@
-import { Card } from './card'
+import { Card } from './other/card'
 import { HeadLine } from './other/headLine'
 
 export const Differences = () => {
@@ -13,17 +13,17 @@ export const Differences = () => {
           <Card
             title="Soluções Personalizadas"
             desc="Entendemos profundamente as necessidades específicas de cada cliente, oferecendo soluções personalizadas que superam expectativas."
-            url={'/personalizado.png'}
+            url={'/differences/personalizado.png'}
           />
           <Card
             title="Inovação Constante"
             desc="Exploramos continuamente novas tecnologias para fornecer soluções criativas e eficientes, mantendo nossos clientes na vanguarda do mercado."
-            url={'/inovacao.png'}
+            url={'/differences/inovacao.png'}
           />
           <Card
             title="Compromisso com a Excelência"
             desc="Aplicamos as melhores práticas da indústria e metodologias ágeis para garantir resultados excepcionais e soluções robustas."
-            url={'/acordo.png'}
+            url={'/differences/acordo.png'}
           />
         </div>
       </div>
