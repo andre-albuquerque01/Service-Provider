@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { Inter, Roboto_Mono } from 'next/font/google'
+import { Inter, Roboto_Mono, Caveat } from 'next/font/google'
 
 export const inter = Inter({
   subsets: ['latin'],
@@ -12,4 +12,12 @@ export const robotoMono = Roboto_Mono({
   display: 'swap',
   variable: '--font-roboto',
   style: ['normal', 'italic'],
+})
+
+export const fontLogo = Caveat({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-roboto',
+  style: ['normal'],
 })
