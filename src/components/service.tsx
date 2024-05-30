@@ -4,7 +4,10 @@ import { HeadLine } from './other/headLine'
 export const Service = () => {
   return (
     <>
-      <div className="max-w-[1200px] mx-auto min-h-[99.7vh] flex flex-col justify-center items-center gap-4 flex-wrap">
+      <div
+        className="max-w-[1200px] mx-auto min-h-[99.7vh] flex flex-col justify-center items-center gap-4 flex-wrap my-20"
+        id="service"
+      >
         <h2 className="uppercase text-cyan-500 font-bold text-2xl text-center max-md:mt-20">
           O que fazemos
         </h2>

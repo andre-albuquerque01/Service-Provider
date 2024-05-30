@@ -7,10 +7,10 @@ export const Location = () => {
     <>
       <div
         className="max-w-[1200px] my-20 mx-auto flex flex-col justify-center gap-4 flex-wrap"
-        id="comoficamos"
+        id="contato"
       >
         <h2 className="uppercase text-cyan-500 font-bold text-2xl text-center max-md:mt-20">
-          Contato
+          Como nós encontrar
         </h2>
         <div className="gradient-div w-[90%] h-0.5 mx-auto shadow-lg"></div>
         <div className="flex justify-center gap-4 flex-wrap">
