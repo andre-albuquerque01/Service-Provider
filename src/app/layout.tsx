@@ -2,10 +2,12 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { inter } from './font'
 import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
 
 export const metadata: Metadata = {
-  title: 'Jesus',
+  title: 'TechCraft',
   description: 'Landing page for business',
+  authors: [{ name: 'André', url: 'https://ae.dev.br' }],
 }
 
 export default function RootLayout({
@@ -19,6 +21,7 @@ export default function RootLayout({
         <div id="inicio"></div>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
