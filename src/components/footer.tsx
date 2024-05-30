@@ -6,7 +6,7 @@ export const Footer = () => {
   }
 
   return (
-    <div className="bg-black w-full h-10 text-md text-white flex justify-center items-center">
+    <div className="bg-black w-full h-10 text-md text-white flex justify-center items-center max-md:text-sm">
       <div>&copy;TechCraft - Todos os direitos reservados - {handleDate()}</div>
     </div>
   )

@@ -30,7 +30,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`z-50 w-full transition-all ease-in-out duration-1000 bg-black ${isTop ? 'block' : 'fixed'}`}
+      className={`z-50 w-full transition-all ease-in-out duration-1000 bg-black fixed`}
     >
       <div className="mx-auto max-w-[1200px] bg-transparent flex justify-between py-4 items-center px-4 text-gray-800 max-h-20">
         <p className={`text-4xl text-white ${fontLogo.className}`}>TechCraft</p>
@@ -40,17 +40,17 @@ export const Header = () => {
             onClick={() => setNavBar((e) => !e)}
           >
             <hr
-              className={`bg-cyan-600 h-1 w-full rounded border-none transition-all transform absolute ${
+              className={`bg-white h-1 w-full rounded border-none transition-all transform absolute ${
                 navbar ? 'rotate-[50deg] top-2' : 'top-0'
               }`}
             />
             <hr
               className={`h-1 w-full rounded border-none transition-all transform absolute ${
-                navbar ? 'bg-transparent top-1' : 'bg-cyan-600 top-2'
+                navbar ? 'bg-transparent top-1' : 'bg-white top-2'
               }`}
             />
             <hr
-              className={`bg-cyan-600 h-1 w-full rounded border-none transition-all transform absolute  ${
+              className={`bg-white h-1 w-full rounded border-none transition-all transform absolute  ${
                 navbar ? 'rotate-[-50deg] top-2 ' : 'top-4'
               }`}
             />
@@ -77,14 +77,14 @@ export const Header = () => {
               Quem Somos
             </Link>
             <Link
-              href={`#servicos`}
+              href={`#service`}
               className=" hover:bg-cyan-600 rounded-md transition duration-500 px-4 py-3 cursor-pointer "
               onClick={() => setNavBar(false)}
             >
               Serviços
             </Link>
             <Link
-              href={`#comoficamos`}
+              href={`#contato`}
               className=" hover:bg-cyan-600 rounded-md transition duration-500 px-4 py-3 cursor-pointer"
               onClick={() => setNavBar(false)}
             >
