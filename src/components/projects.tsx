@@ -5,10 +5,9 @@ export const Projects = () => {
   return (
     <>
       <div className="max-w-[1200px] mx-auto min-h-[99.7vh] flex flex-col justify-center gap-4 flex-wrap">
-        <h2 className="uppercase text-cyan-500 font-bold text-2xl text-center max-md:mt-20">
+        <h2 className="uppercase font-bold text-2xl text-center max-md:mt-20">
           Projetos desenvolvidos
         </h2>
-        <div className="gradient-div w-[90%] h-0.5 mx-auto shadow-lg"></div>
         <div className="flex items-center justify-center flex-wrap gap-3 max-md:p-3">
           <CardProject
             title="Sistema de cardápio digital"
@@ -18,7 +17,7 @@ export const Projects = () => {
           <CardProject
             title="Rede social"
             desc="Rede social estilo fórum, projetada para promover a interação sobre os tópicos no feed, permitindo que os usuários se comuniquem entre si."
-            url={'/differences/inovacao.png'}
+            url={'/project/login.jpg'}
           />
           <CardProject
             title="Portifolio pessoal"
