@@ -12,18 +12,12 @@ export const Introdution = () => {
       />
       <div className="text-white text-center space-y-3 max-md:p-4 max-md:mt-[-80px]">
         <h1 className="text-4xl">Seja bem-vindo a TechCraft</h1>
+        <div className="h-0.5 w-20 bg-white mx-auto"></div>
         <h2>Transformando Ideias em Software de Alta Performance</h2>
         <h3>
           Desenvolvimento de Software Sob Medida para Impulsionar Seu Negócio
         </h3>
       </div>
-      {/* <Image
-        src="/introdution/computer.png"
-        width={400}
-        height={400}
-        alt="capa"
-        className="absolute bottom-0 right-0"
-      /> */}
     </div>
   )
 }
