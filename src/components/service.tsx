@@ -8,7 +8,7 @@ export const Service = () => {
         className="max-w-[1200px] mx-auto min-h-[99.7vh] flex flex-col justify-center items-center gap-4 flex-wrap my-20"
         id="service"
       >
-        <h2 className="uppercase text-cyan-500 font-bold text-2xl text-center max-md:mt-20">
+        <h2 className="uppercase font-bold text-2xl text-center max-md:mt-20">
           O que fazemos
         </h2>
         <div className="p-4 grid grid-cols-2 gap-8 text-center max-sm:grid-cols-1">
