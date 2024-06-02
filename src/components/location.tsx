@@ -9,10 +9,9 @@ export const Location = () => {
         className="max-w-[1200px] my-20 mx-auto flex flex-col justify-center gap-4 flex-wrap"
         id="contato"
       >
-        <h2 className="uppercase text-cyan-500 font-bold text-2xl text-center max-md:mt-20">
+        <h2 className="uppercase font-bold text-2xl text-center max-md:mt-20">
           Como nós encontrar
         </h2>
-        <div className="gradient-div w-[90%] h-0.5 mx-auto shadow-lg"></div>
         <div className="flex justify-center gap-4 flex-wrap">
           <div className="md:w-[30%] text-center border h-20 p-3 flex flex-col justify-evenly items-center rounded-xl transform duration-700 hover:scale-105 hover:shadow-xl">
             <Link
