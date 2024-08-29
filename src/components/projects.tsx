@@ -10,19 +10,22 @@ export const Projects = () => {
         </h2>
         <div className="flex items-center justify-center flex-wrap gap-3 max-md:p-3">
           <CardProject
-            title="Sistema de cardápio digital"
-            desc="O Cardápio Online é uma plataforma que permite aos clientes acompanhar facilmente os pedidos realizados através do garçom, verificar os itens selecionados, o valor total da conta e facilita o cadastro através de um identificador exclusivo para localizar os pedidos."
-            url={'/project/menu.png'}
+            title="Portifolio pessoal"
+            link="https://ae.dev.br/"
+            desc="Portfólio de TI que destaca o profissional, fortalecendo sua visibilidade com uma marca própria na landing page."
+            url={'/project/portfolio2.png'}
           />
           <CardProject
-            title="Rede social"
-            desc="Rede social estilo fórum, projetada para promover a interação sobre os tópicos no feed, permitindo que os usuários se comuniquem entre si."
-            url={'/project/login.jpg'}
+            title="Landing page imobiliária"
+            link="https://imobiliariamartinsesilva.com.br/"
+            desc="Landing page imobiliária que lista imóveis à venda, destacando ofertas e facilitando a busca para clientes."
+            url={'/project/landingPage.png'}
           />
           <CardProject
             title="Portifolio pessoal"
+            link="https://elias.dev.br/"
             desc="Portfólio para um profissional de TI que apresenta informações sobre ele, aumentando sua visibilidade com uma marca própria na sua landing page."
-            url={'/differences/acordo.png'}
+            url={'/project/portfolio.png'}
           />
         </div>
       </div>
