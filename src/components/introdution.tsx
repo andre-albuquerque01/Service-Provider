@@ -1,22 +1,28 @@
-import Image from 'next/image'
-
 export const Introdution = () => {
   return (
-    <div className="min-h-screen bg-black text-white relative grid grid-cols-2 items-center max-md:grid-cols-1">
-      <Image
-        src="/introdution/code.jpg"
-        width={1000}
-        height={1000}
-        alt="capa"
-        className="w-full max-h-screen object-cover z-0"
-      />
-      <div className="text-white text-center space-y-3 max-md:p-4 max-md:mt-[-80px]">
-        <h1 className="text-4xl">Seja bem-vindo a TechCraft</h1>
-        <div className="h-0.5 w-20 bg-white mx-auto"></div>
-        <h2>Transformando Ideias em Software de Alta Performance</h2>
-        <h3>
+    <div
+      className="min-h-screen bg-black text-white flex items-center justify-center"
+      style={{
+        backgroundImage:
+          'linear-gradient(to bottom, #00000076, #000000eb), url(/introdution/code.jpg)',
+        filter: 'brightness(150%)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh',
+      }}
+    >
+      <div className="text-white text-center space-y-3 max-md:px-4">
+        <h1 className="text-4xl sm:text-5xl font-[500]">
+          Transformando ideias em soluções de alta performance
+        </h1>
+        <div className="h-0.5 w-40 bg-cyan-600 mx-auto"></div>
+        <h2 className="text-xl">
+          Desenvolvimento de software sob medida para impulsionar o crescimento
+          e a inovação do seu negócio.
+        </h2>
+        {/* <h3 className="text-xl">
           Desenvolvimento de Software Sob Medida para Impulsionar Seu Negócio
-        </h3>
+        </h3> */}
       </div>
     </div>
   )

@@ -1,11 +1,10 @@
 import { Card } from './other/card'
-import { HeadLine } from './other/headLine'
 
 export const Differences = () => {
   return (
     <>
-      <div className="max-w-[1200px] mx-auto min-h-[99.7vh] flex flex-col justify-center gap-4 flex-wrap">
-        <h2 className="uppercase font-bold text-2xl text-center max-md:mt-20">
+      <div className="max-w-[1200px] mx-auto min-h-[99.7vh] flex flex-col items-center gap-4 flex-wrap">
+        <h2 className="uppercase font-extrabold text-2xl text-center max-md:mt-20">
           Diferenciais
         </h2>
         <div className="flex items-center justify-center flex-wrap gap-3 max-md:p-3">
@@ -26,7 +25,6 @@ export const Differences = () => {
           />
         </div>
       </div>
-      <HeadLine />
     </>
   )
 }
