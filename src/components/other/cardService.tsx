@@ -6,12 +6,12 @@ interface CardProps {
   url: string
 }
 
-export const CardService = ({ ...props }: CardProps) => {
+export const CardService = ({ title, desc, url }: CardProps) => {
   return (
-    <div className="flex flex-col items-center">
-      <Image src={props.url} width={50} height={50} alt="icone" />
-      <h3 className="font-bold">{props.title}</h3>
-      <p>{props.desc}</p>
+    <div className="flex flex-col items-center p-4 border rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+      <Image src={url} width={60} height={60} alt={`ícone ${title}`} />
+      <h4 className="font-semibold text-xl mt-2 mb-1">{title}</h4>
+      <p className="text-sm">{desc}</p>
     </div>
   )
 }
