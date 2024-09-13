@@ -6,7 +6,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 export const Contact = () => {
   return (
     <div className="text-white" id="contato">
-      <div className="flex justify-around items-center max-w-[1200px] mx-auto max-md:flex-col max-md:gap-3 mb-5">
+      <div className="flex justify-around items-center max-w-[1200px] mx-auto max-md:flex-col max-md:items-start max-md:px-3 max-md:gap-3 mb-5">
         <div className="flex max-h-32">
           <Image
             src={'/logo/logo.png'}
