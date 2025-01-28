@@ -1,22 +1,23 @@
 # Landing Page
 
-- Uma landing page que introduza a nova marca digital da empresa, facilitando a realização de campanhas publicitárias e o redirecionamento dos usuários. A página foi projetada para otimizar a captação de clientes, oferecendo uma interface atraente e funcional que incentiva o engajamento e a conversão.
--
+- Uma landing page moderna e estratégica foi desenvolvida para introduzir a nova identidade digital da empresa. O design foi cuidadosamente elaborado para destacar os serviços prestados, facilitar o redirecionamento dos usuários e incentivar o engajamento, promovendo maior captação de clientes.
 
 ## Visão Geral
 
-O produto:
-
-- A landing page foi criada com o objetivo de apresentar a marca da empresa aos seus clientes, possibilitando que eles a analisem e entrem em contato caso estejam interessados.
+- A landing page funciona como o principal ponto de contato entre a marca e seus clientes. Com uma interface atraente e funcional, o objetivo é transmitir profissionalismo e destacar os diferenciais da empresa, enquanto oferece canais claros para que os usuários conheçam os serviços e entrem em contato.
 
 ## O objetivo
 
-- Criar uma landing page para a empresa, com o objetivo de introduzir sua nova marca digital. Esta página é projetada para facilitar a realização de anúncios e o redirecionamento dos usuários, otimizando a captação de clientes.
+- O foco principal da landing page é:
+
+- Apresentar a nova marca digital: destacar a identidade visual e o propósito da empresa.
+- Facilitar anúncios e redirecionamentos: tornando a experiência do usuário simples e intuitiva.
+- Otimizar a captação de clientes: utilizando uma interface cativante e chamativa, projetada para aumentar conversões e engajamento.
 
 ### Imagens do sistema
 
 #### A seguir, apresentamos algumas imagens que demonstram as funcionalidades do sistema
 
-- Início
+- Página Inicial
 
 <img src="assets/index.png" alt="Index" />
