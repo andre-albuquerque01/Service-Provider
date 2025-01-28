@@ -19,4 +19,4 @@ O produto:
 
 - Início
 
-<img src="assets/index.gif" alt="Index" />
+<img src="assets/index.png" alt="Index" />
